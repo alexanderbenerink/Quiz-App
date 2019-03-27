@@ -80,7 +80,7 @@
     // Geeft de HTML code terug voor het renderen van het vragen paneel
     public function drawQuestionPanel() {
       $questionPanel = "
-      <form action='' name='' method='POST'>
+      <form name='questions' action='' method='POST'>
         <fieldset>
           <legend>Questions</legend>
       ";
@@ -233,6 +233,11 @@
     // Setter voor numbOfQuestions
     public function setNumbOfQuestions( $numb ) {
       $this -> numbOfQuestions = $numb;
+    }
+
+    // Getter voor numbOfQuestions
+    public function getNumbOfQuestions() {
+      return $this -> numbOfQuestions;
     }
 
     // Setter voor preferredQuestionType
