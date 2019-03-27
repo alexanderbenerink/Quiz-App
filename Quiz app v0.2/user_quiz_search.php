@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <head>
-	<title>Manage quiz</title>
+	<title>Choose quiz lobby!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<?php
-		include 'includes\header-inc.php';
+		include 'includes\header_user-inc.php';
 	?>
 </head>
 <body>
 
-	<!--Form-->
+	<!--Choose quiz -->
 	<div class="managequiz_container">
-    	<h1 style="text-align: center;">Manage Quiz</h1>
+    	<h1 style="text-align: center;">Choose quiz</h1>
     	<br>
     	<center><input type="text" name="searchQuiz" placeholder="&#xf002; Search"></center>
     	<br>

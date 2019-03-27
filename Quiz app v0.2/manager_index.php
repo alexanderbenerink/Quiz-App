@@ -10,7 +10,6 @@ include 'includes\header-inc.php';
 ?>
 </head>
 <body>
-
 	<form class="signin-form" action="" method="post" style="text-align: center; margin-top: 15%">
 		<button formaction="manager_create_quiz.php" type="submit" name="createQuiz">Create quiz</button>
 			<br>
