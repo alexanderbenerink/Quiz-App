@@ -1,0 +1,158 @@
+@media (max-width: 500px) {
+
+/*--------------------Login/registratie formulieren mobiel--------------------- */
+
+    .signin-form {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+
+    .signin-form input {  
+        width: 75%;
+        height: 40px;
+        padding: 0px 5%;
+        margin-bottom: 16px;
+        border: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        background-color: #fff;
+        font-family: segoe ui;
+        font-size: 16px;
+        color: #111;
+        line-height: 40px;
+    }
+
+    .signin-form button{  
+        display: block;
+        margin: 0 auto;
+        width: 55%;
+        height: 40px;
+        border: solid #999;
+        border-width: 1px;
+        border-radius: 4px;
+        background-color: #888;
+        font-family: segoe ui;
+        font-size: 16px;
+        color: #111;
+        cursor: pointer;
+    }
+
+    .signin-form button:hover{  
+        background-color: #777;
+    }
+
+/*--------------------Algemeen mobiel--------------------- */
+
+
+    body { 
+      margin: 0;
+      font-family: segoe ui;
+    }
+
+    input {
+        font-family: segoe ui, FontAwesome;
+    }
+
+/*--------------------Header mobiel--------------------- */
+
+
+    .header {
+      overflow: hidden;
+      background-color: #f1f1f1;
+      padding: 20px 10px;
+      margin: 0 auto;
+    }
+
+    .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px; 
+      line-height: 25px;
+      border-radius: 4px;
+    }
+
+    .header a.logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .header a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+
+    .header-right {
+      float: right;
+    }
+
+/*--------------------create quiz pagina mobiel--------------------- */
+
+    fieldset {
+        background-color: lightgray;
+        padding: 10px;
+        border-style: none;
+        padding-inline-start: 0em;
+    }
+
+    .outside_fieldset {
+        padding-left: 10px;
+    }
+
+    fieldset button {
+        display: block;
+        margin: 10;
+        margin: 0 auto;
+        width: 40%;
+        height: 40px;
+        border: solid #999;
+        border-width: 1px;
+        border-radius: 4px;
+        background-color: #888;
+        font-family: segoe ui;
+        font-size: 16px;
+        color: #111;
+        cursor: pointer;
+    }
+
+    legend {
+        padding-bottom: 20px;
+    }
+
+    form{  
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    hr {
+        background-color: purple;
+        height: 1px;
+    }
+
+/*--------------------manage quiz pagina mobiel--------------------- */
+
+    .managequiz_container {
+
+    }
+
+    .managequiz_container input {
+        width: 100px;
+        margin: 0 auto;
+        padding: 0px 4%;
+        border: solid;
+        border-width: 1px;
+        border-radius: 16px;
+        background-color: #fff;
+        font-size: 14px;
+        color: #111;
+        line-height: 40px;
+    }
+}
+
+
+
