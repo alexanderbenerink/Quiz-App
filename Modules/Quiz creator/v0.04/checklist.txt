@@ -1,0 +1,8 @@
+- Kijken naar welke velden momenteel nog niet opgehaald worden
+	* Implementatie verzinnen
+- Database is snel in elkaar gezet zonder weinig na te hebben gedacht over de veld types en attributen.
+	* Handig als dit herdacht wordt
+
+Extra tijd:
+
+- Quiz naam en descriptie refill
